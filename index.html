@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Santa Malta - Cervecería Artesanal</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fdfcf7;
+      color: #333;
+    }
+
+    header {
+      background-color: #2d2a26;
+      color: #f4c542;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 3em;
+      letter-spacing: 2px;
+    }
+
+    .contenido {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 30px;
+    }
+
+    .menu {
+      flex: 1;
+      min-width: 280px;
+    }
+
+    .menu h2 {
+      font-size: 2em;
+      margin-bottom: 10px;
+      color: #a07839;
+      border-bottom: 2px solid #a07839;
+      padding-bottom: 5px;
+    }
+
+    ul.variedades {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul.variedades li {
+      padding: 15px 0;
+      border-bottom: 1px solid #ddd;
+    }
+
+    ul.variedades li strong {
+      color: #2d2a26;
+      font-size: 1.2em;
+    }
+
+    .imagen-cerveza {
+      max-width: 350px;
+      width: 100%;
+    }
+
+    .imagen-cerveza img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    footer {
+      background-color: #2d2a26;
+      color: #ccc;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+
+    .social-links a {
+      color: #f4c542;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    @media (max-width: 768px) {
+      .contenido {
+        flex-direction: column;
+        align-items: center;
+      }
+      .imagen-cerveza {
+        max-width: 80%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Cervecería Santa Malta</h1>
+    <p>Artesanía, sabor y tradición en cada gota</p>
+  </header>
+
+  <div class="contenido">
+    <section class="menu">
+      <h2>Nuestras Cervezas</h2>
+      <ul class="variedades">
+        <li><strong>Rubia del Valle</strong> – Lager suave y refrescante con notas florales.</li>
+        <li><strong>IPA Sierra Fuerte</strong> – Cerveza intensa y amarga con lúpulo local.</li>
+        <li><strong>Malta Oscura</strong> – Stout con toques de café y chocolate amargo.</li>
+        <li><strong>Trigo de la Tierra</strong> – Ale de trigo frutal y especiada, ideal para verano.</li>
+        <li><strong>Edición Especial Miel</strong> – Lager infusionada con miel artesanal de montaña.</li>
+      </ul>
+    </section>
+
+    <div class="imagen-cerveza">
+      <img src="images/SMBlondeAle.png" alt="Santa Malta Blonde Ale" />
+    </div>
+  </div>
+
+  <footer>
+    <p>Síguenos en redes sociales:</p>
+    <div class="social-links">
+      <a href="#" target="_blank">Instagram</a>
+      <a href="#" target="_blank">Facebook</a>
+      <a href="#" target="_blank">Twitter</a>
+    </div>
+    <p>© 2025 Santa Malta - Cerveza Artesanal</p>
+  </footer>
+
+</body>
+</html>
